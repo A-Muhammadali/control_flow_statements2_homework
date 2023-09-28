@@ -8,4 +8,17 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    t=a
+    if t<b:
+        t=b
+    if t<c:
+        t=c
+    p=a
+    if p>b:
+        p=b
+    if p>c:
+        p=c
+    return a*b*c//p//t
+print(main(1,4,2))
+
+    
